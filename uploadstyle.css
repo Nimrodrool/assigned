@@ -261,6 +261,7 @@ margin-bottom: 4vh;
     text-align: center;
     box-shadow: 3px 3px 3px black;
     transition: background-color 0.4s, border 0.4s, box-shadow 0.4s; /* Specify properties */
+    box-sizing: border-box; /* Add this */
 }
 
 .uploadLabel:hover {
