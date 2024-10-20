@@ -13,6 +13,7 @@ body{
 nav{
     background-color: rgb(255, 211, 116);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    position:sticky;
 }
 
 nav ul {
@@ -205,6 +206,6 @@ margin-bottom: 4vh;
         width: 50%; 
         height: 40vh; 
         margin-bottom: 15vh;
-        margin-top:-50px;
+        margin-top:-25%;
     }
 }
