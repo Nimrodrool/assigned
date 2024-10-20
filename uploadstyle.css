@@ -248,29 +248,26 @@ margin-bottom: 4vh;
     width: 100%;
 }
 
-.uploadLabel{
-    display: block;
+.uploadLabel {
+    display: flex;
+    justify-content: center; /* Centers the text horizontally */
+    align-items: center; /* Centers the text vertically */
     width: 300px;
-    height: 45.75px;
-    background:#eb1d12;
+    background: #eb1d12;
     color: white;
     padding: 6px;
     font-size: small;
-    border-radius: 15px;
+    border-radius: 25px;
     cursor: pointer;
-    text-align: center;
+    transition: background-color 0.4s, border 0.4s, box-shadow 0.4s;
+    box-sizing: border-box;
+    height: 40px; /* Set a height */
     box-shadow: 3px 3px 3px black;
-    transition: background-color 0.4s, border 0.4s, box-shadow 0.4s; /* Specify properties */
-    box-sizing: border-box; /* Add this */
 }
+
 
 .uploadLabel:hover {
     border: 1px solid;
     background-color:#c41208;
 }
 
-@media(max-width: 499px){
-    .uploadLabel{
-    width: 93%;
-    }
-}
