@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <link rel="stylesheet" href="uploadstyle.css">
+    <title>Assigned</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="sidebar">
+            <li onclick="closeSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Assignments</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Upload</a></li>
+        </ul>
+        <ul>
+            <li ><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="#">Assignments</a></li>
+            <li class="hideOnMobile"><a href="#">About</a></li>
+            <li class="hideOnMobile"><a href="#">Upload</a></li>
+            <li class="menuButton" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Help other job seekers!</h1>
+        <h4>Got a new home assignment? Share it here so others can get ahead too!</h4>
+    </header>
+    <section class="upload">
+        <form action="#" class="uploadForm">
+            <label class="uploadLabel" for="input-file">Upload Assignment</label>
+            <input type="file" id="input-file" name="file" accept="image/png, image/jpg, image/jpeg, image/pdf" />
+          
+           <input type="search" name="company" id="company" placeholder="company name">
+           <select name="title" id="title" placeholder="title">
+            <option value="">Marketing</option>
+            <option value="">IT</option>
+            <option value="">Software</option>
+            <option value="">QA</option>
+            <option value="">Analyst</option>
+
+           </select>
+           <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer">
+            <p>2024  &#169</p>
+        </div>
+    </footer>
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function closeSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
+
+</body>
+</html>
