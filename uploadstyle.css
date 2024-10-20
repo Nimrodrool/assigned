@@ -250,7 +250,7 @@ margin-bottom: 4vh;
 
 .uploadLabel{
     display: block;
-    max-width: 300px;
+    width: 300px;
     height: 45.75px;
     background:#eb1d12;
     color: white;
