@@ -272,3 +272,16 @@ margin-bottom: 4vh;
     background-color:#c41208;
 }
 
+#suggestions li {
+    list-style: none;
+    
+}
+
+.suggestionsOn {
+    border: 1px solid rgb(151, 151, 151);
+    background: white;
+    border-radius: 5px;
+    color:black;
+    padding: 2% 4%;
+
+  }
