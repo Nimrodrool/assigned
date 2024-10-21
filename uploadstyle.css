@@ -274,7 +274,9 @@ margin-bottom: 4vh;
 
 #suggestions li {
     list-style: none;
-    
+    text-decoration: underline;
+    padding-bottom: 10%;
+    text-align: center;
 }
 
 .suggestionsOn {
